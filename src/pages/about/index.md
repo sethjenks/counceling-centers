@@ -1,7 +1,6 @@
 ---
-path: /about
 templateKey: about-page
-title: About our values
+title: About our Therapists
 ---
 ### Dr. Perriann Beyers, LCSW/MFT
 A social worker who holds a master?s or doctoral degree in social work from an accredited school of social work in addition to at least two years of post-master?s supervised experience in a clinical setting. The social worker must be licensed, certified, or registered at the clinical level in the jurisdiction of practice. A clinical social worker provides direct services, including interventions focused on interpersonal interactions, intrapsychic dynamics, and life management issues. Clinical social work services are based on bio-psychosocial perspectives. Services consist of assessment, diagnosis, treatment (including psychotherapy and counseling), client-centered advocacy, consultation, evaluation, and prevention of mental illness, emotional, or behavioral disturbances.
