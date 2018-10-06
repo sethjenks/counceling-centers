@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: Our Services
-image: /img/jumbotron.jpg
+image: /img/apps.40925.14302983618670303.5848eebe-867a-4d04-80a3-e3dc75094b23.jpeg
 heading: What we offer
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
