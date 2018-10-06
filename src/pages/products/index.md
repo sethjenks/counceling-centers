@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: Our Services
-image: /img/apps.18112.14302983618670303.53787735-4832-4870-95d8-1c26ac830659.jpeg
+image: /img/apps.40925.14302983618670303.5848eebe-867a-4d04-80a3-e3dc75094b23.jpeg
 heading: What we offer
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
