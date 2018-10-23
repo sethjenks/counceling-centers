@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: 'Counseling Centers of Utah',
+    description: 'Utah counseling services',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
