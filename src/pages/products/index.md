@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: Our Services
+title: Our Product
 image: /img/apps.40925.14302983618670303.5848eebe-867a-4d04-80a3-e3dc75094b23.jpeg
 heading: What we offer
 description: >-
