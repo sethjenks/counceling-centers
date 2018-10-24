@@ -9,6 +9,7 @@ const FeatureGrid = ({ gridItems }) => (
           <p className="has-text-centered">
             <img alt="" src={item.image} />
           </p>
+          {/* <h4>Headline</h4> */}
           <p>{item.text}</p>
         </section>
       </div>

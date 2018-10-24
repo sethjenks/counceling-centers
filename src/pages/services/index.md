@@ -1,5 +1,5 @@
 ---
-templateKey: product-page
+templateKey: services-page
 title: Our Services
 image: /img/apps.40925.14302983618670303.5848eebe-867a-4d04-80a3-e3dc75094b23.jpeg
 heading: What we offer
