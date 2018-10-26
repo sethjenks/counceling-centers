@@ -28,7 +28,7 @@ export default class IndexPage extends React.Component {
                 We help others strenghen their own ability for healing, peace, and happiness.
               </p>
               <Link className="button is-large" to="/contact">
-                Contact us
+                Work with us
               </Link>
             </div>
           </div>
@@ -48,6 +48,9 @@ export default class IndexPage extends React.Component {
                  It is our mission to assist those we work with in discovering their "Self", to deepen and understand their own potential,
                  and help them become empowered to realize their capacity for healing, peace, and happiness.
                  </p>
+                 <Link className="button is-medium" to="/about">
+                   Learn more about our therapists
+                 </Link>
                 </div>
               </div>
 
@@ -82,37 +85,94 @@ export default class IndexPage extends React.Component {
               </div>
             </div>
           </section>
+          <section className="section">
+          <h2 className="title has-text-weight-bold is-size-1 has-text-centered">
+          Some of our services
+          </h2>
+          </section>
 
-          <section className="section is-medium">
+          <section className="section">
           <div className="tile is-ancestor">
             <div className="tile is-parent">
               <article className="tile is-child box">
-                <p className="title">Family Life Education</p>
+                <h3 className="title">Family Life Education</h3>
                 <div className="content">
-                  <p>provides clients with information and skills in a variety of topics, including, parenting, communication, marriage, and self-esteem</p>
+                  <p>We provide clients with information and skills in a variety of topics, including, parenting, communication, marriage, and self-esteem.</p>
                 </div>
               </article>
             </div>
             <div className="tile is-parent">
               <article className="tile is-child box">
-                <p className="title">Family Life Education</p>
+                <h3 className="title">Individual, Marriage and Family Counseling</h3>
                 <div className="content">
-                  <p>provides clients with information and skills in a variety of topics, including, parenting, communication, marriage, and self-esteem</p>
+                  <p>We're well grounded in Cognitive Behavior and Family Systems Therapies. Treatment plans are developed with the individual needs in mind.</p>
                 </div>
               </article>
             </div>
             <div className="tile is-parent">
               <article className="tile is-child box">
-              <p className="title">Family Life Education</p>
+              <h3 className="title">Marriage Enrichment</h3>
                 <div className="content">
-                  <p>provides clients with information and skills in a variety of topics, including, parenting, communication, marriage, and self-esteem</p>
+                  <p>Counseling Centers of Utah uses the PREP approach, which focuses on techniques in problems solving and resolving conflict, communication, enjoying the relationship, and staying the course in the relationship.</p>
                 </div>
               </article>
             </div>
+          </div>
+          <div className="tile is-ancestor">
+            <div className="tile is-parent">
+              <article className="tile is-child box">
+                <h3 className="title">Sex Addiction Counseling</h3>
+                <div className="content">
+                  <p>is done by certified sex addiction counselors using a 12-step approach, developing by Patrick Carnes, that focuses on overcoming sex addictions and provide healing.</p>
+                </div>
+              </article>
             </div>
-            <Link className="button is-large is-fullwidth" to="/services">
-              See all of our services
-            </Link>
+            <div className="tile is-parent">
+              <article className="tile is-child box">
+                <h3 className="title">Self-esteem Enhansement</h3>
+                <div className="content">
+                  <p>A program that emphasizes self-worth and increasing the sense of individual worth by focusing on respect for the dignity and worth of all people.</p>
+                </div>
+              </article>
+            </div>
+            <div className="tile is-parent">
+              <article className="tile is-child box">
+              <h3 className="title">Pornography Addiction Counseling</h3>
+                <div className="content">
+                  <p>Uses much the same approach as sex addiction counseling, modified to focus more specifically on those issues faced by those addicted to pornography.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div className="tile is-ancestor">
+            <div className="tile is-parent">
+              <article className="tile is-child box">
+                <h3 className="title">PATHS</h3>
+                <div className="content">
+                  <p>A program available for people charged with a public sex crime, and is approved by West Valley City as a resource for meeting court ordered counseling.</p>
+                </div>
+              </article>
+            </div>
+            <div className="tile is-parent">
+              <article className="tile is-child box">
+                <h3 className="title">Communication Skills Development</h3>
+                <div className="content">
+                  <p>provides clients with experiential learning in communication.</p>
+                </div>
+              </article>
+            </div>
+            <div className="tile is-parent">
+              <article className="tile is-child box">
+              <h3 className="title">SGA Groups</h3>
+                <div className="content">
+                  <p>A program that instills belief, hope, courage, confidence and faith to overcome same gender attraction (SGA).</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <Link className="button is-large is-fullwidth is-primary" to="/contact">
+            Let's work together
+          </Link>
   </section>
 </Layout>
     )

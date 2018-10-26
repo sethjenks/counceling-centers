@@ -71,7 +71,7 @@ export default class Contact extends React.Component {
             <div className="control">
               <label>
                 Your phone<br />
-                <input className="input is-large" type="tel" name="email" onChange={this.handleChange} />
+                <input className="input is-large" type="tel" name="phone" onChange={this.handleChange} />
             </label>
           </div>
           </div>
