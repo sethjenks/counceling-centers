@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import Contact from '../components/Contact';
 
 export const ContactPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content
@@ -17,14 +18,25 @@ export const ContactPageTemplate = ({ title, content, contentComponent }) => {
                 {title}
               </h2>
               <PageContent className="content" content={content} />
+              <Contact/>
 
             </div>
           </div>
         </div>
       </div>
+
+
+
     </section>
   )
 }
+
+
+
+
+
+
+
 
 ContactPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,

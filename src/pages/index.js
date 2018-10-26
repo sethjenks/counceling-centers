@@ -5,7 +5,7 @@ import Layout from '../components/Layout'
 
 export default class IndexPage extends React.Component {
   render() {
-    const { data } = this.props
+    
 
 
     return (
