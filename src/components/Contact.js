@@ -34,8 +34,7 @@ export default class Contact extends React.Component {
 
   render() {
     return (
-      <div>
-        <h1>Contact</h1>
+      <div className="box">
         <form
           name="ccu-contact"
           method="post"
@@ -52,27 +51,43 @@ export default class Contact extends React.Component {
               <input name="bot-field" onChange={this.handleChange} />
             </label>
           </p>
-          <p>
-            <label>
-              Your name:<br />
-              <input type="text" name="name" onChange={this.handleChange} />
+          <div className="field">
+            <div className="control">
+              <label>
+                Your full name<br />
+              <i  nput className="input is-large" type="text" name="name" onChange={this.handleChange} />
             </label>
-          </p>
-          <p>
-            <label>
-              Your email:<br />
-              <input type="email" name="email" onChange={this.handleChange} />
+          </div>
+          </div>
+          <div className="field">
+            <div className="control">
+              <label>
+                Your email<br />
+                <input className="input is-large" type="email" name="email" onChange={this.handleChange} />
             </label>
-          </p>
-          <p>
-            <label>
-              Message:<br />
-              <textarea name="message" onChange={this.handleChange} />
+          </div>
+          </div>
+          <div className="field">
+            <div className="control">
+              <label>
+                Your phone<br />
+                <input className="input is-large" type="tel" name="email" onChange={this.handleChange} />
             </label>
-          </p>
-          <p>
-            <button type="submit">Send</button>
-          </p>
+          </div>
+          </div>
+          <div className="field">
+            <div className="control">
+              <label>
+                What kind of services are you seeking?<br />
+                <textarea className="textarea" name="message" onChange={this.handleChange} />
+            </label>
+          </div>
+          </div>
+          <div className="field">
+            <div className="control">
+              <button className="button is-primary is-medium" type="submit">Request more information</button>
+          </div>
+          </div>
         </form>
       </div>
     );

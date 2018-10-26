@@ -12,21 +12,40 @@ export const ContactPageTemplate = ({ title, content, contentComponent }) => {
     <section className="section section--gradient">
       <div className="container">
         <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <div className="section">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
+          <div className="column is-5">
+            <div className="">
+              <h2 className="title is-size-2 has-text-weight-bold is-bold-light">
                 {title}
               </h2>
-              <PageContent className="content" content={content} />
+
+
               <Contact/>
 
             </div>
           </div>
+          <div className="column is-5 is-offset-1">
+            <div className="">
+              <h3 className="title is-size-2 has-text-weight-bold is-bold-light">
+              Our location
+              </h3>
+              <h3 className="title is-size-3 has-text-weight-bold is-bold-light">
+              <address>
+              Counseling Centers of Utah<br/>
+              9192 South 300 West,<br/>
+              Suite 19<br/>
+              Sandy, UT<br/>
+              84070<br/>
+              </address>
+              <br/>
+              <h3 className="title is-size-4 has-text-weight-bold is-bold-light">
+              Fax: 801.523.9239
+              </h3>
+
+              </h3>
+            </div>
+          </div>
         </div>
       </div>
-
-
-
     </section>
   )
 }
