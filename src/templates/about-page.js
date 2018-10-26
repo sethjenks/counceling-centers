@@ -18,8 +18,8 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
         <div className="columns">
           <div className="column is-4">
             <div className="section">
-              <figure class="image">
-                <img class="is-rounded" src={perriann}/>
+              <figure className="image">
+                <img className="is-rounded" src={perriann}/>
               </figure>
             </div>
           </div>
@@ -39,8 +39,8 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
         <div className="columns">
           <div className="column is-4">
             <div className="section">
-              <figure class="image">
-                <img class="is-rounded" src={steve}/>
+              <figure className="image">
+                <img className="is-rounded" src={steve}/>
               </figure>
             </div>
           </div>
@@ -60,8 +60,8 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
         <div className="columns">
           <div className="column is-4">
             <div className="section">
-              <figure class="image">
-                <img class="is-rounded" src={jackie}/>
+              <figure className="image">
+                <img className="is-rounded" src={jackie}/>
               </figure>
             </div>
           </div>
