@@ -55,7 +55,7 @@ export default class Contact extends React.Component {
             <div className="control">
               <label>
                 Your full name<br />
-              <i  nput className="input is-large" type="text" name="name" onChange={this.handleChange} />
+              <input className="input is-large" type="text" name="name" onChange={this.handleChange} />
             </label>
           </div>
           </div>
@@ -79,7 +79,7 @@ export default class Contact extends React.Component {
             <div className="control">
               <label>
                 What kind of services are you seeking?<br />
-                <textarea className="textarea" name="message" onChange={this.handleChange} />
+                <textarea className="textarea is-large" name="message" onChange={this.handleChange} />
             </label>
           </div>
           </div>
