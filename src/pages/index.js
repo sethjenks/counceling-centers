@@ -147,25 +147,9 @@ export default class IndexPage extends React.Component {
           <div className="tile is-ancestor">
             <div className="tile is-parent">
               <article className="tile is-child box">
-                <h3 className="title">PATHS</h3>
-                <div className="content">
-                  <p>A program available for people charged with a public sex crime, and is approved by West Valley City as a resource for meeting court ordered counseling.</p>
-                </div>
-              </article>
-            </div>
-            <div className="tile is-parent">
-              <article className="tile is-child box">
                 <h3 className="title">Communication Skills Development</h3>
                 <div className="content">
                   <p>provides clients with experiential learning in communication.</p>
-                </div>
-              </article>
-            </div>
-            <div className="tile is-parent">
-              <article className="tile is-child box">
-              <h3 className="title">SGA Groups</h3>
-                <div className="content">
-                  <p>A program that instills belief, hope, courage, confidence and faith to overcome same gender attraction (SGA).</p>
                 </div>
               </article>
             </div>
