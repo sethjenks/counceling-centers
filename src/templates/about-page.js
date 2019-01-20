@@ -67,6 +67,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
             <div className="section">
               <h3 className="title is-size-4 has-text-weight-bold is-bold-light">Jackie Rodat, LMFT</h3>
               <p>is a Licensed Marriage and Family Therapist in private practice at Counseling Centers of Utah. Jackie has been specializing in working with teens and adolescents for the past 20+ years, who struggle with behavioral and mental health issues. Jackie worked in the Inpatient Unit through Salt Lake Behavioral Health, and established the Intensive Outpatient Program for adolescents. She has vast experience working in residential treatment settings such as Vista Adolescent Treatment Center, Alpine Academy, and currently at Westridge Academy Residential Treatment Center. Her subsequent years of training and experience also include case management with Vietnamese and Somalian refugees, individual and family therapy with Catholic Community Services, with sex offenders through Center for Family Development, and substance abuse treatment with Cornerstone Counseling Center. Jackie has a variety of experience working with disorders including: Adoption/Reactive Attachment & Adjustment Disorders, Autism Spectrum Disorders, ADD/ADHD, Personality & Mood Disorders, PTSD, Self-Harm and Sexual Abuse, and several others. Jackie’s passion is working with children, adolescents and their families.
+              </p>
             </div>
           </div>
         </div>
