@@ -25,7 +25,7 @@ export default class IndexPage extends React.Component {
                 Hope is here.
               </h1>
               <p className="subtitle has-text-white is-size-4">
-                We help others strengthen their own ability for healing, peace, and happiness. 
+                Strengthen your own ability for healing, peace, and happiness.
               </p>
               <Link className="button is-large" to="/contact">
                 Work with us
