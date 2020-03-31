@@ -33,13 +33,13 @@ export default class IndexPage extends React.Component {
             </div>
           </div>
         </section>
-          <section className="section is-medium">
+          <section className="section is-small">
             <div className="container">
               <div className="content">
               <div className="columns">
                 <div className="column is-4 is-offset-2">
                 <figure className="image">
-                  <img className="is-rounded" src={butterfly}/>
+                  <img className="" src={butterfly}/>
                 </figure>
                 </div>
                 <div className="column is-4">
@@ -57,7 +57,7 @@ export default class IndexPage extends React.Component {
               </div>
             </div>
           </section>
-          <section className="section is-medium"
+          <section className="section is-small"
                    style={{
                    backgroundColor: '#0B1730',
                    }}
